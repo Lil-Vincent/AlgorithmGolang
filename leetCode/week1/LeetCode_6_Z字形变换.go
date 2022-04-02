@@ -1,4 +1,4 @@
-package main
+package week1
 
 func convert(s string, n int) string {
 	if n == 1 {

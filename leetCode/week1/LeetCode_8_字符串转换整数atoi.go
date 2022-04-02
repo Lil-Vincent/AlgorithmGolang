@@ -1,10 +1,10 @@
-package main
+package week1
 
 import (
 	"math"
 )
 
-func myAtoi(s string) int {
+func MyAtoi(s string) int {
 	k := 0
 	for k < len(s) && s[k] == ' ' {
 		k++
