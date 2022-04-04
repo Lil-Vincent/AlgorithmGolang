@@ -1,6 +1,6 @@
 package week1
 
-func convert(s string, n int) string {
+func Convert(s string, n int) string {
 	if n == 1 {
 		return s
 	}
