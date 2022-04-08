@@ -1,6 +1,8 @@
 package main
 
-import "AlgorithmGolang/leetCode/week2"
+import (
+	"AlgorithmGolang/leetCode/week2"
+)
 
 func main() {
 	//week1.IsPalindrome(121)
@@ -16,7 +18,10 @@ func main() {
 	//week2.LongestCommonPrefix(strs)
 
 	//LcT18
-	q := []int{1, 0, -1, 0, -2, 2}
-	n := 0
-	week2.FourSum(q, n)
+	//q := []int{1, 0, -1, 0, -2, 2}
+	//n := 0
+	//week2.FourSum(q, n)
+
+	week2.IsValid("[")
+
 }
