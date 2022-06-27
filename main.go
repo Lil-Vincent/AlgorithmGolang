@@ -1,7 +1,7 @@
 package main
 
 import (
-	"AlgorithmGolang/leetCode/week2"
+	"fmt"
 )
 
 func main() {
@@ -22,6 +22,8 @@ func main() {
 	//n := 0
 	//week2.FourSum(q, n)
 
-	week2.IsValid("[")
+	//week2.IsValid("[")
 
+	var q [3]int = [3]int{1, 3, 2}
+	fmt.Println(q[0])
 }
